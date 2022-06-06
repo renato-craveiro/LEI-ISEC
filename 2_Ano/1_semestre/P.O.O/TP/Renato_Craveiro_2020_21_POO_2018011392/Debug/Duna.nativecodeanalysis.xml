@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\renat\source\repos\Renato_Craveiro_2020_21_POO_2018011392\Renato_Craveiro_2020_21_POO_2018011392\</FILEPATH>
+      <FILENAME>Territorio.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Territorio::resistencia' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Territorio::{ctor}</FUNCTION>
+    <DECORATED>??0Territorio@@IAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Territorio::resistencia</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\renat\source\repos\Renato_Craveiro_2020_21_POO_2018011392\Renato_Craveiro_2020_21_POO_2018011392\</FILEPATH>
+      <FILENAME>Territorio.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Territorio::produtos' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Territorio::{ctor}</FUNCTION>
+    <DECORATED>??0Territorio@@IAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Territorio::produtos</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\renat\source\repos\Renato_Craveiro_2020_21_POO_2018011392\Renato_Craveiro_2020_21_POO_2018011392\</FILEPATH>
+      <FILENAME>Territorio.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Territorio::ouro' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Territorio::{ctor}</FUNCTION>
+    <DECORATED>??0Territorio@@IAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Territorio::ouro</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\renat\source\repos\Renato_Craveiro_2020_21_POO_2018011392\Renato_Craveiro_2020_21_POO_2018011392\</FILEPATH>
+      <FILENAME>Territorio.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Territorio::pontos' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Territorio::{ctor}</FUNCTION>
+    <DECORATED>??0Territorio@@IAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Territorio::pontos</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\renat\source\repos\Renato_Craveiro_2020_21_POO_2018011392\Renato_Craveiro_2020_21_POO_2018011392\</FILEPATH>
+      <FILENAME>Territorio.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Territorio::conquistado' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Territorio::{ctor}</FUNCTION>
+    <DECORATED>??0Territorio@@IAE@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Territorio::conquistado</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

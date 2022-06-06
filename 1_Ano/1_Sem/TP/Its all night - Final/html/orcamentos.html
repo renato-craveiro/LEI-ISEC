@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's All Night - Orçamentos</title>
+    <link href="../estilos.css" type="text/css" rel="stylesheet">
+    <style>
+    </style>
+    
+    
+</head>
+
+<body>    
+    <!--Menu-->
+    <nav id="menu">
+        <ul>
+            <li><a href="servicos.html">Serviços</a>
+                <ul>
+                    <li><a href="servicos.html#eventosanteriores">Eventos anteriores</a></li>
+                    <li><a href="servicos.html#futuroseventos">Futuros eventos </a></li>
+                </ul>
+            </li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="orcamentos.html">Orçamentos</a></li>
+            <div id="paginic">
+                <li><a href="../index.html"><img border="0" alt="Página Inicial" src="../img/logo.PNG" width="100" height="25"></a></li>
+            </div>
+            
+            <div id="dir">
+                <li><a href="quem%20somos.html">Quem Somos</a></li>
+                <li><a href="login.html">Login</a></li>
+            </div>
+        </ul>
+    </nav>
+    
+    <nav id="vertmenu">
+        <button onclick="fecharv()" id="fecharvert">Fechar</button>
+        <ul>
+            <div id="paginic">
+                <li><a href="../index.html"><img border="0" alt="Página Inicial" src="../img/logo.PNG" width="100" height="25"></a></li>
+            </div><br><br>
+            <li><a href="servicos.html">Serviços</a> </li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="orcamentos.html">Orçamentos</a></li>            
+            <li><a href="quem%20somos.html">Quem Somos</a></li>
+            <li><a href="login.html">Login</a></li>
+            
+        </ul>
+        
+    </nav>
+    <!--Fim de Menu-->
+
+    <div id="bgimg">
+        
+    </div>  
+    <button onclick="vert()" id="vertbotao">Menu Vertical</button>
+    
+    <div id="texto">
+        <h2>Orçamentos</h2> 
+        <p><i><b>Nota:</b> Todos os produtos/serviços aqui apresentados são os disponíveis, de momento, para aluguer.</i></p>
+    
+        <div id="tituloorc">
+        <h3>Equipamentos Audiovisuais</h3>
+
+            <table>
+              <tr>
+                <th>Nome</th>
+                <th>Dimensão/Quantidade</th>
+                <th>Preço por dia</th>
+              </tr>
+              <tr>
+                <td>Amplificadores</td>
+                <td>Altura - 1.5m / Largura - 0.5m / 4 amplificadores</td>
+                <td>150€</td>
+              </tr>
+              <tr>
+                <td>Conjunto de holofotes/luzes</td>
+                <td>Comprimento - 2m / Largura - 0.2m / 2 conjuntos</td>
+                <td>100€</td>
+              </tr>
+              <tr>
+                <td>Microfones</td>
+                <td>4 unidades</td>
+                <td>50€</td>
+              </tr>
+              <tr>
+                <td>Mesa de som</td>
+                <td>1 unidade</td>
+                <td>100€</td>
+              </tr>
+              <tr>
+                <td>Palco</td>
+                <td>Comprimento - 40m / Largura - 20m</td>
+                <td>350€ (montagem incluída)</td>
+              </tr>    
+            </table>
+        
+        <h3>Espaços</h3>
+
+            <table>
+              <tr>
+                <th>Nome</th>
+                <th>Localização</th>
+                <th>Preço por dia</th>
+              </tr>
+              <tr>
+                <td>Queimódromo</td>
+                <td>Av. Inês de Castro, Coimbra</td>
+                <td>100€</td>
+              </tr>
+              <tr>
+                <td>Parque Verde</td>
+                <td>Condeixa-a-Nova - Coimbra</td>
+                <td>50€</td>
+              </tr> 
+              <tr>
+                <td>ISEC - Instituto Superior de Engenharia de Coimbra</td>
+                <td>Vale Das Flores, Coimbra</td>
+                <td>1000€</td>
+              </tr>      
+            </table>
+        
+        <h3>Organizadores</h3>
+
+            <table>
+              <tr>
+                <th>Nome</th>
+                <th>Especialidade</th>
+                <th>Preço por evento</th>
+              </tr>
+              <tr>
+                <td>Cristóvão Pereira</td>
+                <td>Audiovisuais</td>
+                <td>500€</td>
+              </tr>
+              <tr>
+                <td>Renato Craveiro</td>
+                <td>Espaços</td>
+                <td>500€</td>
+              </tr>
+              <tr>
+                <td>Pack Organização</td>
+                <td>Audiovisuais + Espaços</td>
+                <td>999.99€</td>
+              </tr>    
+            </table>
+        <p><i><b>Nota: </b>Os Organizadores irão organizar o meterial para o evento e estarão presentes no mesmo.</i></p>    
+        </div>
+     </div>       
+    
+    
+   <!--Footer-->    
+    <footer>
+            <h4>It's all night, Cristóvão Pereira e Renato Craveiro - 2018</h4>
+    </footer>
+    <!--Fim de Footer-->
+    
+    <script type="text/javascript">
+        function vert() {
+            var x = document.getElementById("vertmenu");            
+            x.style.visibility = "visible";
+        }
+        
+        function fecharv(){
+            var x = document.getElementById("vertmenu");
+            x.style.visibility="hidden";
+        }
+    </script>
+</body>
+</html>

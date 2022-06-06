@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TiposContinente">
+      <UniqueIdentifier>{018a7c01-a18f-4d9b-87c4-fbe46dd256aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TiposIlha">
+      <UniqueIdentifier>{58bdc0f6-bd99-478b-8703-749d2466e633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TiposContinente">
+      <UniqueIdentifier>{684d4f8c-cdcb-4e1a-b6cf-8df71f54c71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TiposIlha">
+      <UniqueIdentifier>{eb26fea3-e524-41e3-bd88-9d686aad17bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Renato_Craveiro_2020_21_POO_2018011392.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mundo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Territorio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Territorio_Inicial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Continente.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ilha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tecnologias.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Imperio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpretador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Castelo.cpp">
+      <Filter>Source Files\TiposContinente</Filter>
+    </ClCompile>
+    <ClCompile Include="Duna.cpp">
+      <Filter>Source Files\TiposContinente</Filter>
+    </ClCompile>
+    <ClCompile Include="Fortaleza.cpp">
+      <Filter>Source Files\TiposContinente</Filter>
+    </ClCompile>
+    <ClCompile Include="Montanha.cpp">
+      <Filter>Source Files\TiposContinente</Filter>
+    </ClCompile>
+    <ClCompile Include="Planicie.cpp">
+      <Filter>Source Files\TiposContinente</Filter>
+    </ClCompile>
+    <ClCompile Include="Mina.cpp">
+      <Filter>Source Files\TiposContinente</Filter>
+    </ClCompile>
+    <ClCompile Include="Pescaria.cpp">
+      <Filter>Source Files\TiposIlha</Filter>
+    </ClCompile>
+    <ClCompile Include="RefugioPiratas.cpp">
+      <Filter>Source Files\TiposIlha</Filter>
+    </ClCompile>
+    <ClCompile Include="savegame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mundo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Territorio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Territorio_Inicial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ilha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tecnologias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Castelo.h">
+      <Filter>Header Files\TiposContinente</Filter>
+    </ClInclude>
+    <ClInclude Include="Duna.h">
+      <Filter>Header Files\TiposContinente</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortaleza.h">
+      <Filter>Header Files\TiposContinente</Filter>
+    </ClInclude>
+    <ClInclude Include="Mina.h">
+      <Filter>Header Files\TiposContinente</Filter>
+    </ClInclude>
+    <ClInclude Include="Montanha.h">
+      <Filter>Header Files\TiposContinente</Filter>
+    </ClInclude>
+    <ClInclude Include="Planicie.h">
+      <Filter>Header Files\TiposContinente</Filter>
+    </ClInclude>
+    <ClInclude Include="Continente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pescaria.h">
+      <Filter>Header Files\TiposIlha</Filter>
+    </ClInclude>
+    <ClInclude Include="RefugioPiratas.h">
+      <Filter>Header Files\TiposIlha</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpretador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imperio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="savegame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

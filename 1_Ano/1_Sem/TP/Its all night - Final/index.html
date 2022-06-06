@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's All Night</title>
+    <link href="estilos.css" type="text/css" rel="stylesheet">
+    <style>
+    </style>
+    
+    
+</head>
+
+<body>    
+    
+    <!--Menu-->
+    <nav id="menu">
+        <ul>
+            <li><a href="html/servicos.html">Serviços</a>
+                <ul>
+                    <li><a href="html/servicos.html#eventosanteriores">Eventos anteriores</a></li>
+                    <li><a href="html/servicos.html#futuroseventos">Futuros eventos </a></li>
+                </ul>
+            </li>
+            <li><a href="html/clientes.html">Clientes</a></li>
+            <li><a href="html/orcamentos.html">Orçamentos</a></li>
+            <div id="paginic">
+                <li><a href="index.html"><img border="0" alt="Página Inicial" src="img/logo.PNG" width="100" height="25"></a></li>
+            </div>
+            
+            <div id="dir">
+                <li><a href="html/quem%20somos.html">Quem Somos</a></li>
+                <li><a href="html/login.html">Login</a></li>
+            </div>
+        </ul>
+    </nav>
+    
+    
+    <nav id="vertmenu">
+        <button onclick="fecharv()" id="fecharvert">Fechar</button>
+        <ul>
+            <div id="paginic">
+                <li><a href="index.html"><img border="0" alt="Página Inicial" src="img/logo.PNG" width="100" height="25"></a></li>
+            </div><br><br>
+            <li><a href="html/servicos.html">Serviços</a> </li>
+            <li><a href="html/clientes.html">Clientes</a></li>
+            <li><a href="html/orcamentos.html">Orçamentos</a></li>            
+            <li><a href="html/quem%20somos.html">Quem Somos</a></li>
+            <li><a href="html/login.html">Login</a></li>
+            
+        </ul>
+        
+    </nav>
+    <!--Fim de Menu-->
+    
+    
+    
+    <div id="bgimgindex">        
+        <button onclick="vert()" id="vertbotao">Menu Vertical</button>       
+    </div>
+    
+    
+    
+    
+    
+    <!--Footer-->    
+    <footer>
+            <h4>It's all night, Cristóvão Pereira e Renato Craveiro - 2018</h4>
+    </footer>
+    <!--Fim de Footer-->
+    
+    
+    
+    <script type="text/javascript">
+        function vert() {
+            var x = document.getElementById("vertmenu");            
+            x.style.visibility = "visible";
+        }
+        
+        function fecharv(){
+            var x = document.getElementById("vertmenu");
+            x.style.visibility="hidden";
+        }
+    </script>
+</body>
+</html>

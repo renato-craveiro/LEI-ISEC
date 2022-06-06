@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's All Night - Clientes</title>
+    <link href="../estilos.css" type="text/css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+    
+
+<body>    
+    <!--Menu-->
+    <nav id="menu">
+        <ul>
+            <li><a href="servicos.html">Serviços</a>
+                <ul>
+                    <li><a href="servicos.html#eventosanteriores">Eventos anteriores</a></li>
+                    <li><a href="servicos.html#futuroseventos">Futuros eventos </a></li>
+                </ul>
+            </li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="orcamentos.html">Orçamentos</a></li>
+            <div id="paginic">
+                <li><a href="../index.html"><img border="0" alt="Página Inicial" src="../img/logo.PNG" width="100" height="25"></a></li>
+            </div>
+            
+            <div id="dir">
+                <li><a href="quem%20somos.html">Quem Somos</a></li>
+                <li><a href="login.html">Login</a></li>
+            </div>
+        </ul>
+    </nav>
+    
+    <nav id="vertmenu">
+        <button onclick="fecharv()" id="fecharvert">Fechar</button>
+        <ul>
+            <div id="paginic">
+                <li><a href="../index.html"><img border="0" alt="Página Inicial" src="../img/logo.PNG" width="100" height="25"></a></li>
+            </div><br><br>
+            <li><a href="servicos.html">Serviços</a> </li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="orcamentos.html">Orçamentos</a></li>            
+            <li><a href="quem%20somos.html">Quem Somos</a></li>
+            <li><a href="login.html">Login</a></li>
+            
+        </ul>
+        
+    </nav>
+    <!--Fim de Menu-->
+
+    <div id="bgimg">
+        
+    </div>  
+    <button onclick="vert()" id="vertbotao">Menu Vertical</button>
+    
+    <div id="texto">
+        
+            <h2>Os nossos Clientes</h2>
+
+            <p>Multas organizações e pessoas contam com os nossos serviços no que toca à disponibilização de materiais, espaços e organização geral dos seus festivais de música.</p>
+            <p>Entre muitos nomes bastante conhecidos, constam os seguintes:</p>
+
+        <div class="centrar">
+            <div class="cliente">
+                <p><img src="../img/logomeo.png" alt="Meo">
+                <p><b>Meo</b></p>
+                <p>Meo Sudoeste</p>
+            </div>
+
+            <div class="cliente">
+                <p><img src="../img/logonos.png" alt="NOS">
+                <p><b>NOS</b></p>
+                <p>NOS Alive</p>
+            </div>
+            <div class="cliente">
+                <p><img src="../img/logosuperbock.png" alt="SuperBock">
+                <p><b>Super Bock</b></p>
+                <p>Super Bock Super Rock</p>
+            </div>
+            
+            <div class="cliente clientesfora" >
+                <p><img src="../img/logosumol.png" alt="Sumol">
+                <p><b>Sumol</b></p>
+                <p>Sumol Summerfest</p>
+            </div>
+            <div class="cliente clientesfora">
+                <p><img src="../img/logovodafone.jpg" alt="Vodafone">
+                <p><b><br><br>Vodafone</b></p>
+                <p>Vodafone Paredes de Coura</p>
+            </div>
+            <div class="cliente clientesfora">
+                <p><img src="../img/orgrirrobmed.jpg" alt="Roberta Medeiros">
+                <br><p><b><br><br>Roberta Medeiros</b></p>
+                <p>Rock in Rio</p>
+            </div>
+             
+            
+        </div>
+        
+    </div>            
+    
+    <!--Footer-->  
+    <footer>
+            <h4>It's all night, Cristóvão Pereira e Renato Craveiro - 2018</h4>
+    </footer>
+    <!--Fim de Footer-->
+        
+    <script type="text/javascript">
+        function vert() {
+            var x = document.getElementById("vertmenu");            
+            x.style.visibility = "visible";
+        }
+        
+        function fecharv(){
+            var x = document.getElementById("vertmenu");
+            x.style.visibility="hidden";
+        }
+    </script>
+        
+</body>
+</html>

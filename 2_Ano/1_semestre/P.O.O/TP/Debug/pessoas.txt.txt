@@ -1,0 +1,5 @@
+cria fortaleza 10
+cria dd 1
+cria castelo a
+cria castelo 4
+cc

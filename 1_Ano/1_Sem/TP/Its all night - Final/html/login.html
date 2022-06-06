@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's All Night - Login / Registo</title>
+    <link href="../estilos.css" rel="stylesheet" type="text/css">
+    <style></style>
+</head>
+
+<body>
+    <!--Menu-->
+    <nav id="menu">
+        <ul>
+            <li><a href="servicos.html">Serviços</a>
+                <ul>
+                    <li><a href="servicos.html#eventosanteriores">Eventos anteriores</a></li>
+                    <li><a href="servicos.html#futuroseventos">Futuros eventos </a></li>
+                </ul>
+            </li>
+            <li><a href="clientes.html">Clientes</a>
+                <ul>
+                    <li><a href="orcamentos.html">Orçamentos para os nossos clientes</a></li>
+                    <li><a href="servicos.html">Os nossos serviços</a></li>
+                </ul>
+            
+            </li>
+            <li><a href="orcamentos.html">Orçamentos</a></li>
+            <div id="paginic">
+                <li><a href="../index.html"><img border="0" alt="Página Inicial" src="../img/logo.PNG" width="100" height="25"></a></li>
+            </div>
+            
+            <div id="dir">
+                <li><a href="quem%20somos.html">Quem Somos</a></li>
+                <li><a href="login.html">Login</a></li>
+            </div>
+        </ul>
+    </nav>
+    
+    <nav id="vertmenu">
+        <button onclick="fecharv()" id="fecharvert">Fechar</button>
+        <ul>
+            <div id="paginic">
+                <li><a href="../index.html"><img border="0" alt="Página Inicial" src="../img/logo.PNG" width="100" height="25"></a></li>
+            </div><br><br>
+            <li><a href="servicos.html">Serviços</a> </li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="orcamentos.html">Orçamentos</a></li>            
+            <li><a href="quem%20somos.html">Quem Somos</a></li>
+            <li><a href="login.html">Login</a></li>
+            
+        </ul>
+        
+    </nav>
+    <!--Fim de Menu-->
+    
+    <div id="bgimg">
+        
+    </div> 
+    <button onclick="vert()" id="vertbotao">Menu Vertical</button>
+    <div id="textologin">
+        <div id="enterlogin">
+            <h2>Login</h2>
+            <div class="login">    
+                <form>
+                    Nome de Utilizador :<br><input  id="username" type="text" size="30"> <br><br>
+                    Password :<br> <input id="password" type="password" size="30"> <br> 
+                    <input class="botaologin1" type="button" value="Login" onclick="validar()">
+                </form>
+            </div>
+        </div>    
+        <br><br><br>
+        <div id="enterregisto">   
+            <div class="newuser">
+                <h2>Registo</h2>
+                <form>
+                    Nome de Utilizador :<br><input  id="user" type="text" size="30"> <br> <br>
+                    Password :<br><input id="pass" type="password" size="30"> <br> 
+                    <input class="botaoregisto" type="button" value="Registar" onClick=registo()>    
+                </form>
+            </div>
+        </div>      
+    </div>
+    
+    <!--Footer-->    
+    <footer>
+            <h4>It's all night, Cristóvão Pereira e Renato Craveiro - 2018</h4>
+    </footer>
+    <!--Fim de Footer-->
+    
+    
+    
+    
+    
+    <script>
+        function validar() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            
+            if((username == user && password == pass && username != "" && password != "")||(username == "ADMIN" && password == "ADMIN" && username != "" && password != "")) 
+            {
+                alert("Login realizado com sucesso!")
+                window.location = "sucesso.html";
+                return false;
+            }
+            else {
+                if(username == "" || password == ""){
+                    alert("Introduza os dados!");   
+                }else{
+                    alert("Dados introduzidos são inválidos!");  
+                }
+                
+            }
+        }
+        var user;
+        var pass;
+        
+        function registo() {
+            user = document.getElementById("user").value;
+            pass = document.getElementById("pass").value;
+            
+            if(pass.length < 8)
+            {
+                alert("A Password requer um mínimo de 8 caracteres");
+            }
+            else
+            {
+                alert("Utilizador Registado!");
+            }
+            
+        }
+        
+        function vert() {
+            var x = document.getElementById("vertmenu");            
+            x.style.visibility = "visible";
+        }
+        
+        function fecharv(){
+            var x = document.getElementById("vertmenu");
+            x.style.visibility="hidden";
+        }
+    </script>
+</body>
+</html>
