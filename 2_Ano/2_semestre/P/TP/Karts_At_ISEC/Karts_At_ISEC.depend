@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1559418926 source:c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"piloto.h"
+	"carros.h"
+	"corridas.h"
+
+1559327294 c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\piloto.h
+
+1559422547 source:c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\piloto.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"piloto.h"
+
+1559422497 source:c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\carros.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"carros.h"
+
+1559327294 c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\carros.h
+
+1553074166 c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\utils.h
+
+1553074166 source:c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<limits.h>
+	"utils.h"
+
+1559355333 source:c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\corridas.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"piloto.h"
+	"carros.h"
+	"corridas.h"
+
+1559348377 c:\users\raoky\desktop\renato - prog_p6_21280286\karts_at_isec\corridas.h
+
+1559422497 source:c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\carros.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"carros.h"
+
+1559327294 c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\carros.h
+
+1559422547 source:c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\piloto.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"piloto.h"
+
+1553074166 c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\utils.h
+
+1559327294 c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\piloto.h
+
+1553074166 source:c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<limits.h>
+	"utils.h"
+
+1559430049 source:c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\corridas.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"piloto.h"
+	"carros.h"
+	"corridas.h"
+
+1559439006 c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\corridas.h
+
+1559439080 source:c:\users\raoky\desktop\prog_p6_21280286\karts_at_isec\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utils.h"
+	"piloto.h"
+	"carros.h"
+	"corridas.h"
+

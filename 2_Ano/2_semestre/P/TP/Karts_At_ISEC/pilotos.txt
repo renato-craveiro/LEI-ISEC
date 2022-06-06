@@ -1,0 +1,18 @@
+Paulo Andrade
+2 23 12 1995 76 0.50 2
+
+Faisca
+3  1  1 1980 50 7.00 1
+
+Diana Alves Pombo
+4  1 10 1990 55 11.00 0
+
+Ana Luisa Freitas
+7 12  7 1976 68 12.50 0
+
+Renato Craveiro
+27 26  2 2000 115 0.50 0
+
+Joao Meireles
+66  4  3 1988 100 4.00 0
+
