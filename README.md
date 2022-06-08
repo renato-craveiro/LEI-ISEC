@@ -10,5 +10,6 @@ _I believe that everyone should have access to education_
 
 ## Other Great Repos for ISEC - LEI Students:
 
+* [ISEC-estudantes](https://github.com/ISEC-estudantes) - Contains notes other ISEC - LEI students made
 * 1Ano-2Sem: Métodos_Estatísticos: [NaClYSpammer - Metodos_Estatísticos](https://github.com/NaClYSpammer/Metodos_Estatisticos) - contains all Chapters learned on Métodos Estatísticos, resumed by [NaClYSpammer (GitHub Page)](https://github.com/NaClYSpammer) and exercises answered by himself.
 
