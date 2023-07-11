@@ -1,0 +1,1 @@
+Apenas referencio oseguinte endereço: https://github.com/NaClYSpammer/Metodos_Estatisticos excelente explição!
