@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\tst\TestSO2\test.c(9,10): warning C4477: 'printf': a cadeia de formato '%s' requer um argumento do tipo 'char *', mas um argumento variadic 1 tem o tipo 'int'
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\tst\TestSO2\test.c(9,10): warning C4313: 'printf': '%s' na cadeia de formato está em conflito com o argumento 1 do tipo 'int'
+  TestSO2.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\tst\TestSO2\x64\Debug\TestSO2.exe

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network5" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Rendimento">
+			<state id="Alto" />
+			<state id="Baixo" />
+			<probabilities>0.4 0.6</probabilities>
+		</cpt>
+		<cpt id="Debito">
+			<state id="Alto" />
+			<state id="Baixo" />
+			<probabilities>0.7 0.3</probabilities>
+		</cpt>
+		<cpt id="ObterCredito">
+			<state id="S" />
+			<state id="N" />
+			<parents>Rendimento Debito</parents>
+			<probabilities>0.8 0.2 0.99 0.01000000000000001 0 1 0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="TerStress">
+			<state id="S" />
+			<state id="N" />
+			<parents>Debito</parents>
+			<probabilities>0.9 0.09999999999999998 0.2 0.8</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network5">
+			<node id="Rendimento">
+				<name>Rendimento</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>85 102 154 145</position>
+			</node>
+			<node id="Debito">
+				<name>Debito</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>317 108 365 138</position>
+			</node>
+			<node id="ObterCredito">
+				<name>ObterCredito</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>84 259 157 304</position>
+			</node>
+			<node id="TerStress">
+				<name>TerStress</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>309 264 371 302</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

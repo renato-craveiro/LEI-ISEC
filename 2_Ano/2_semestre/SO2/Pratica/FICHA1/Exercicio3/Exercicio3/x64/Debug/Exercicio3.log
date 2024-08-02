@@ -1,0 +1,12 @@
+﻿  ex3.c
+C:\Users\raoky\Downloads\SO2 - 2024 - Ficha 1 - Codigo Fonte\SO2 - 2024 - Ficha 1 - Codigo Fonte\ex3.c(26,30): warning C4477: 'swprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+  C:\Users\raoky\Downloads\SO2 - 2024 - Ficha 1 - Codigo Fonte\SO2 - 2024 - Ficha 1 - Codigo Fonte\ex3.c(26,30):
+  consider using '%zd' in the format string
+  
+  Exercicio3.c
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\Exercicio3\Exercicio3\Exercicio3.c(27,34): warning C4477: 'swprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+  C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\Exercicio3\Exercicio3\Exercicio3.c(27,34):
+  consider using '%zd' in the format string
+  
+  Generating Code...
+  Exercicio3.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\Exercicio3\x64\Debug\Exercicio3.exe

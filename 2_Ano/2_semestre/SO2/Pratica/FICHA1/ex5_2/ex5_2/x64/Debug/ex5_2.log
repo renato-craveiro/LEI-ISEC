@@ -1,0 +1,9 @@
+﻿  ex5.c
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA1\ex5\ex5\ex5.c(78,34): warning C4477: 'swprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+  C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA1\ex5\ex5\ex5.c(78,34):
+  consider using '%zd' in the format string
+  
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA1\ex5\ex5\ex5.c(50,11): warning C4101: 'vars': unreferenced local variable
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA1\ex5\ex5\ex5.c(27,25): warning C4101: 'processInfoself': unreferenced local variable
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA1\ex5\ex5\ex5.c(24,12): warning C4101: 'env': unreferenced local variable
+  ex5_2.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA1\ex5_2\x64\Debug\ex5_2.exe

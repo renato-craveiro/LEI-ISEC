@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Tuberculose">
+			<state id="Sim" />
+			<state id="Nao" />
+			<probabilities>0.01 0.99</probabilities>
+		</cpt>
+		<cpt id="Radiografia">
+			<state id="Positiva" />
+			<state id="Negativa" />
+			<parents>Tuberculose</parents>
+			<probabilities>0.95 0.05000000000000004 0.005 0.995</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network1">
+			<node id="Tuberculose">
+				<name>Tuberculose</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>144 140 217 185</position>
+			</node>
+			<node id="Radiografia">
+				<name>Radiografia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>146 322 214 364</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

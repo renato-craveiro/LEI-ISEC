@@ -1,0 +1,25 @@
+﻿  ex2.c
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x185 that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x549 that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x5ce that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x84d that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x942 that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0xa9e that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0xcf8 that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x1114 that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x1165 that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(1,1): warning C4828: The file contains a character starting at offset 0x116d that is illegal in the current source character set (codepage 65001).
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(46,15): warning C4133: 'function': incompatible types - from 'TCHAR [200]' to 'const wchar_t *'
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(55,18): warning C4133: 'function': incompatible types - from 'TCHAR [200]' to 'const wchar_t *'
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(59,54): warning C4047: 'function': 'const BYTE *' differs in levels of indirection from 'int'
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(59,54): warning C4024: 'RegSetValueExA': different types for formal and actual parameter 5
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(66,42): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'DWORD *'
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(66,42): warning C4024: 'RegSetValueExA': different types for formal and actual parameter 4
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(66,55): warning C4047: 'function': 'const BYTE *' differs in levels of indirection from 'size_t'
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(66,55): warning C4024: 'RegSetValueExA': different types for formal and actual parameter 5
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(74,87): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(9,40): warning C4101: 'par_valor': unreferenced local variable
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(10,10): warning C4101: 'res': unreferenced local variable
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(9,8): warning C4101: 'chave_nome': unreferenced local variable
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\Ficha2\ex2.c(9,25): warning C4101: 'par_nome': unreferenced local variable
+  Ficha2.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\FICHA2\Ficha2\x64\Debug\Ficha2.exe

@@ -1,0 +1,4 @@
+﻿  ex1.c
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\SO2 - 2024 - Ficha 7 - Codigo Fonte\ex1.c(228,6): warning C4101: 'i': unreferenced local variable
+LINK : warning LNK4044: unrecognized option '/utf-16'; ignored
+  F7.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\F7\x64\Debug\F7.exe

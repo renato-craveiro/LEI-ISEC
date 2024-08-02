@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network3" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Exercicio">
+			<state id="Sim" />
+			<state id="Nao" />
+			<probabilities>0.7 0.3</probabilities>
+		</cpt>
+		<cpt id="Dieta">
+			<state id="Saudavel" />
+			<state id="NaoSaudavel" />
+			<probabilities>0.25 0.75</probabilities>
+		</cpt>
+		<cpt id="Azia">
+			<state id="Sim" />
+			<state id="Nao" />
+			<parents>Dieta</parents>
+			<probabilities>0.2 0.8 0.85 0.15</probabilities>
+		</cpt>
+		<cpt id="Doenca_cardiaca">
+			<state id="Sim" />
+			<state id="Nao" />
+			<parents>Exercicio Dieta</parents>
+			<probabilities>0.25 0.75 0.45 0.55 0.55 0.45 0.75 0.25</probabilities>
+		</cpt>
+		<cpt id="Tensao_alta">
+			<state id="Sim" />
+			<state id="Nao" />
+			<parents>Doenca_cardiaca</parents>
+			<probabilities>0.85 0.15 0.2 0.8</probabilities>
+		</cpt>
+		<cpt id="DorNoPeito">
+			<state id="Sim" />
+			<state id="Nao" />
+			<parents>Doenca_cardiaca Azia</parents>
+			<probabilities>0.8 0.2 0.6 0.4 0.4 0.6 0.1 0.9</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.1.3724.0 ACADEMIC" name="Network3">
+			<node id="Exercicio">
+				<name>Exercicio</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>116 179 196 222</position>
+			</node>
+			<node id="Dieta">
+				<name>Dieta</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>330 168 418 230</position>
+			</node>
+			<node id="Azia">
+				<name>Azia</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>319 315 419 384</position>
+			</node>
+			<node id="Doenca_cardiaca">
+				<name>Doenca_cardiaca</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>82 319 231 368</position>
+			</node>
+			<node id="Tensao_alta">
+				<name>Tensao_alta</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>122 475 193 519</position>
+			</node>
+			<node id="DorNoPeito">
+				<name>DorNoPeito</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>336 480 402 521</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

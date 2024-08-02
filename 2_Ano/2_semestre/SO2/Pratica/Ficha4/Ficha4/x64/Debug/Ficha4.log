@@ -1,0 +1,4 @@
+﻿  ex1.c
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\Ficha4\Ficha4\ex1.c(76,15): warning C4101: 'inter': unreferenced local variable
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\Ficha4\Ficha4\ex1.c(75,15): warning C4101: 'range': unreferenced local variable
+  Ficha4.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\Ficha4\x64\Debug\Ficha4.exe

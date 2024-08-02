@@ -1,0 +1,9 @@
+﻿  ex2.c
+C:\Users\raoky\Downloads\SO2 - 2024 - Ficha 1 - Codigo Fonte\SO2 - 2024 - Ficha 1 - Codigo Fonte\ex2.c(9,12): warning C4477: 'printf': a cadeia de formato '%d' requer um argumento do tipo 'int', mas um argumento variadic 2 tem o tipo 'size_t'
+C:\Users\raoky\Downloads\SO2 - 2024 - Ficha 1 - Codigo Fonte\SO2 - 2024 - Ficha 1 - Codigo Fonte\ex2.c(9,12): message : considere usar '%zd' na cadeia de formato
+  ex3.c
+C:\Users\raoky\Downloads\SO2 - 2024 - Ficha 1 - Codigo Fonte\SO2 - 2024 - Ficha 1 - Codigo Fonte\ex3.c(26,30): warning C4477: 'sprintf_s': a cadeia de formato '%d' requer um argumento do tipo 'int', mas um argumento variadic 2 tem o tipo 'size_t'
+C:\Users\raoky\Downloads\SO2 - 2024 - Ficha 1 - Codigo Fonte\SO2 - 2024 - Ficha 1 - Codigo Fonte\ex3.c(26,30): message : considere usar '%zd' na cadeia de formato
+  Main.c
+  Gerando Código...
+  PrjTeste-Ola.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\PrjTeste-Ola\x64\Debug\PrjTeste-Ola.exe

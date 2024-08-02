@@ -1,0 +1,4 @@
+﻿  ex2.c
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\tst\tst2\ex2.c(26,34): warning C4477: 'swprintf_s': a cadeia de formato '%d' requer um argumento do tipo 'int', mas um argumento variadic 2 tem o tipo 'size_t'
+C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\tst\tst2\ex2.c(26,34): message : considere usar '%zd' na cadeia de formato
+  tst2.vcxproj -> C:\Users\raoky\Desktop\ISEC23-24\2ano\2sem\SO2\tst\tst2\x64\Debug\tst2.exe
